@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Android Game | بهترین بازی‌های اندرویدی - دانلود و معرفی بازی اندروید</title>
+<meta name="description" content="بهترین بازی های اندروید رو اینجا پیدا کن! معرفی بیش از ۲۰۰ بازی اندرویدی در ۷ دسته‌بندی: بازی ترسناک، شبیه‌ساز، فان، جهان باز، موتورسواری، خلبانی و ماشین‌سواری با امتیاز و لینک دانلود.">
+<meta name="keywords" content="بازی های اندروید, بهترین بازی های اندروید, دانلود بازی اندروید, بازی اندروید رایگان, بازی ترسناک اندروید, بازی شبیه ساز اندروید, Android Game, Granny, GTA, Ice Scream, Evil Nun">
+<meta name="author" content="Android Game">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://androidgame.ir/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Android Game | بهترین بازی‌های اندرویدی">
+<meta property="og:description" content="معرفی بهترین بازی های اندروید در ۷ دسته‌بندی، با امتیاز و لینک دانلود مستقیم.">
+<meta property="og:locale" content="fa_IR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Android Game | بهترین بازی‌های اندرویدی">
+<meta name="twitter:description" content="معرفی بهترین بازی های اندروید در ۷ دسته‌بندی، با امتیاز و لینک دانلود مستقیم.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+<style>
+:root{
+  --bg:#0f1115; --bg2:#171a21; --card:#1c2029; --text:#f2f3f5; --muted:#9aa0ab; --line:#2a2f3a; --accent:#7c5cff;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){ --bg:#f5f6fa; --bg2:#fff; --card:#fff; --text:#181a20; --muted:#5b6270; --line:#e3e6ec; }
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{background:var(--bg); color:var(--text); font-family:Tahoma,Arial,sans-serif;}
+html{scroll-padding-top:calc(64px + env(safe-area-inset-top,0px));}
+.container{max-width:1100px; margin:0 auto; padding:0 16px;}
+header{position:sticky; top:0; top:env(safe-area-inset-top,0px); background:var(--bg2); border-bottom:1px solid var(--line); padding:14px 0; z-index:20;}
+header .container{display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;}
+.logo{font-weight:800; font-size:19px;}
+.logo span{color:var(--accent);}
+.search input{width:100%; max-width:220px; padding:9px 12px; border-radius:9px; border:1px solid var(--line); background:var(--card); color:var(--text); font-size:13px; outline:none;}
+.search input:focus{border-color:var(--accent);}
+.hero{padding:36px 0 18px; text-align:center;}
+.hero h1{font-size:clamp(24px,4.5vw,36px); font-weight:800;}
+.hero h1 span{color:var(--accent);}
+.hero p{color:var(--muted); margin-top:8px; font-size:14px;}
+nav.catnav{position:sticky; top:56px; top:calc(env(safe-area-inset-top,0px) + 56px); background:var(--bg); z-index:19; padding:10px 0; border-bottom:1px solid var(--line); overflow-x:auto; white-space:nowrap;}
+nav.catnav a{display:inline-block; margin-inline-end:8px; padding:7px 14px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--muted); font-size:12.5px; text-decoration:none;}
+nav.catnav a:hover{border-color:var(--accent); color:var(--text);}
+section.cat{padding:26px 0 6px; scroll-margin-top:110px;}
+section.cat h2{font-size:19px; display:flex; align-items:center; gap:8px; margin-bottom:4px;}
+section.cat .count{font-size:12px; color:var(--muted); font-weight:400;}
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px; margin-top:12px;}
+.card{background:var(--card); border:1px solid var(--line); border-radius:13px; padding:12px; display:flex; flex-direction:column; gap:6px; transition:.15s; cursor:pointer;}
+.card:hover{border-color:var(--accent); transform:translateY(-2px);}
+.icon{width:38px; height:38px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:19px; background:var(--ic);}
+.card h3{font-size:13px; font-weight:700; line-height:1.4;}
+.card .cat-tag{font-size:11px; color:var(--muted);}
+.reviews{padding:40px 0 60px;}
+.reviews h2{font-size:20px; margin-bottom:14px;}
+.rv-list{display:flex; flex-direction:column; gap:10px; margin-bottom:18px;}
+.rv{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 14px;}
+.rv b{font-size:13px;}
+.rv .stars{color:#f6c453; font-size:12px; margin-inline-start:6px;}
+.rv p{font-size:13px; color:var(--muted); margin-top:4px; line-height:1.7;}
+.rv-form{display:flex; flex-direction:column; gap:8px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px;}
+.rv-form input, .rv-form textarea{padding:10px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); font-family:inherit; font-size:13px; outline:none;}
+.rv-form textarea{resize:vertical; min-height:60px;}
+.rv-form .starsel{display:flex; gap:4px; font-size:20px; cursor:pointer;}
+.rv-form .starsel span{opacity:.35;}
+.rv-form .starsel span.on{opacity:1;}
+.rv-form button{padding:10px; border-radius:8px; border:none; background:var(--accent); color:#fff; font-weight:700; cursor:pointer; font-size:13px;}
+footer{border-top:1px solid var(--line); padding:20px 0; text-align:center; color:var(--muted); font-size:11.5px;}
+.modal-overlay{position:fixed; inset:0; background:rgba(0,0,0,.65); display:flex; align-items:center; justify-content:center; z-index:50; padding:16px;}
+.modal-overlay.hidden{display:none;}
+.modal-box{background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; max-width:340px; width:100%; position:relative; text-align:center;}
+.modal-close{position:absolute; top:10px; left:10px; background:none; border:none; color:var(--muted); font-size:20px; cursor:pointer;}
+.modal-icon{width:64px; height:64px; border-radius:16px; display:flex; align-items:center; justify-content:center; font-size:32px; margin:0 auto 10px;}
+.modal-box h3{font-size:17px; margin-bottom:4px;}
+.modal-box .rating{color:#f6c453; font-size:13px; margin:6px 0;}
+.modal-box p{font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:14px;}
+.modal-box .btn{display:block; padding:11px; border-radius:10px; background:var(--accent); color:#fff; text-decoration:none; font-weight:700; font-size:13px;}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Android Game","description":"بهترین بازی های اندروید - معرفی بیش از ۲۰۰ بازی اندرویدی در ۷ دسته‌بندی","inLanguage":"fa"}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">🎮 Android<span>Game</span></div>
+    <div class="search"><input id="q" placeholder="جستجوی بازی..."></div>
+  </div>
+</header>
+
+<div class="hero container">
+  <h1>بهترین <span>بازی‌های اندرویدی</span></h1>
+  <p>معرفی و دانلود بیش از ۲۰۰ بازی اندروید در ۷ دسته‌بندی — بازی ترسناک، شبیه‌ساز، فان و بیشتر. روی هر بازی بزن تا جزئیات و لینک دانلودش رو ببینی</p>
+</div>
+
+<nav class="catnav container" id="catnav"></nav>
+<main class="container" id="main"></main>
+
+<section class="reviews container">
+  <h2>💬 نظرات کاربران</h2>
+  <div class="rv-list" id="rvList"></div>
+  <div class="rv-form">
+    <input id="rvName" placeholder="نام شما">
+    <div class="starsel" id="starsel">
+      <span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span><span data-v="4">★</span><span data-v="5">★</span>
+    </div>
+    <textarea id="rvText" placeholder="نظرت رو بنویس..."></textarea>
+    <button onclick="submitReview()">ثبت نظر</button>
+  </div>
+</section>
+
+<footer>ساخته‌شده به‌عنوان نمونه معرفی بازی — لینک دانلود به صفحه جستجوی Google Play وصل می‌شه</footer>
+
+<div class="modal-overlay hidden" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <div class="modal-icon" id="mIcon"></div>
+    <h3 id="mName"></h3>
+    <div class="cat-tag" id="mCat"></div>
+    <div class="rating" id="mRating"></div>
+    <p id="mDesc"></p>
+    <a id="mLink" class="btn" target="_blank" rel="noopener">مشاهده در Google Play ↗</a>
+  </div>
+</div>
+
+<script>
+const CATS = [
+ {key:"horror", label:"ترسناک", icons:["👻","🧟","🔪","🩸","😱","🕯️"], c:"linear-gradient(135deg,#7f1d1d,#111827)", desc:"یک تجربه ترسناک و اضطراب‌آور با جوسازی سنگین و لحظات غافلگیرکننده."},
+ {key:"simulator", label:"شبیه‌ساز", icons:["🛠️","🚛","🚌","🚕","🚜","🏗️"], c:"linear-gradient(135deg,#0f766e,#134e4a)", desc:"شبیه‌سازی واقع‌گرایانه که تجربه‌ای نزدیک به دنیای واقعی در اختیارت می‌ذاره."},
+ {key:"fun", label:"فان", icons:["🎉","🐐","🤪","🎈","🥊","🧸"], c:"linear-gradient(135deg,#f59e0b,#ef4444)", desc:"بازی سرگرم‌کننده و بامزه، مناسب برای گذروندن اوقات فراغت با خنده."},
+ {key:"openworld", label:"جهان باز", icons:["🌍","🗺️","🏙️","⛰️","🐉","🌌"], c:"linear-gradient(135deg,#2563eb,#7c3aed)", desc:"دنیایی باز و بزرگ برای کاوش، انجام ماموریت و آزادی عمل کامل."},
+ {key:"motorcycle", label:"موتورسواری", icons:["🏍️","🛵","🏁","⛽","🛞","🔥"], c:"linear-gradient(135deg,#dc2626,#111827)", desc:"هیجان موتورسواری و مسابقه با کنترل نزدیک به واقعیت."},
+ {key:"flying", label:"خلبانی", icons:["✈️","🛩️","🚁","🛫","☁️","🪂"], c:"linear-gradient(135deg,#0ea5e9,#1e3a8a)", desc:"تجربه خلبانی و پرواز با جزئیات دقیق هواپیما و آسمان."},
+ {key:"racing", label:"ماشین‌سواری", icons:["🏎️","🚗","🛞","🏁","🚦","💨"], c:"linear-gradient(135deg,#f97316,#b91c1c)", desc:"مسابقه ماشین‌سواری پرسرعت با گرافیک و فیزیک واقع‌گرایانه."},
+];
+
+const GAMES = {
+horror:["Alien: Isolation","Granny","Granny 2","Granny 3","Eyes: The Horror Game","The Baby in Yellow","Mimicry: Online Horror Action","Specimen Zero","Death Park","Death Park 2","CASE: Animatronics","CASE 2: Animatronics Survival","Evil Nun","Evil Nun 2","Evil Nun: The Broken Mask","Ice Scream","Ice Scream 2","Ice Scream 3","Ice Scream 4","Forgotten Memories","Mental Hospital IV","Mental Hospital VI","Slendrina: The Cellar","Slendrina 2D","Slendrina: The Forest","Horrorfield","The School: White Day","Into the Dead 2","Five Nights at Freddy's"],
+simulator:["Euro Truck Evolution","Truck Simulator: Ultimate","Bus Simulator: Ultimate","Car Simulator 2","Driving School Simulator","Taxi Sim 2020","Train Station 2","Airline Commander","Infinite Flight","Helicopter Simulator","Farming Simulator 23","Farming Simulator 20","Construction Simulator 3","Construction Simulator 2","Motorsport Manager Mobile 3","Fire Truck Simulator","Emergency Ambulance Simulator","Police Simulator Cop Car Duty","Dream Hospital","Hotel Empire Tycoon","House Flipper","Fishing Clash","Fishing Simulator","Flight Pilot Simulator 3D","Ship Sim 2019","Train Sim","My Time at Portia","Car Mechanic Simulator 21","Supermarket Simulator","City Island 5"],
+fun:["Goat Simulator","Human: Fall Flat","Totally Reliable Delivery Service","Dumb Ways to Die","Dude Theft Wars","Turbo Dismount","Stair Dismount","Funny Truck","Wobbly Life","Octodad: Dadliest Catch","Goat Simulator 3","Gang Beasts","Party Animals","SpongeBob: Krusty Cook-Off","Sausage Man","Among Us","Human Vehicle","Bowmasters","Kick the Buddy","Robbery Bob","Dadish","Sneaky Sasquatch","Totally Accurate Battle Simulator","My Talking Tom","My Talking Angela 2","Super Fowlst 2","Getting Over It","Donut County","Battlelands Royale","Dude Theft Wars: Open World Games"],
+openworld:["GTA: San Andreas","GTA: Vice City","GTA III","GTA: Liberty City Stories","GTA: Chinatown Wars","Bully: Anniversary Edition","Gangstar Vegas","Gangstar New Orleans","MadOut2 BigCityOnline","Dude Theft Wars","Payback 2","Gangstar Rio: City of Saints","Minecraft","Terraria","ARK: Survival Evolved","Survivalcraft 2","Oceanhorn 2","Sky: Children of the Light","Black Desert Mobile","Dawnlands","Once Human","Dragon Raja","Tower of Fantasy","LifeAfter","Undawn","CarX Street","Drive Zone Online","Off The Road (OTR)","Goat Simulator 3","Wuthering Waves"],
+motorcycle:["Traffic Rider","Traffic Rider 2","Moto Rider GO","Real Moto 2","Racing Fever: Moto","Xtreme Motorbikes","Trial Xtreme 4","Trial Xtreme 3","Mad Skills Motocross 3","Mad Skills Motocross 2","SBK16","SBK VR","MotoGP Racing 24","MotoGP 24 Mobile","Ultimate Motorcycle Simulator","Motorcycle Real Simulator","Bike Race","Bike Mayhem 2","Gravity Rider","Gravity Rider Zero","Wheelie Life 2","MX Bikes","Dirt Bike Unchained","Trial Bike Extreme","Motor Tour","Moto Race 3D","Highway Moto","Highway Rider","Death Moto","Moto Rider Xtreme"],
+flying:["Infinite Flight","RFS - Real Flight Simulator","X-Plane Flight Simulator","Aerofly FS Global","Flight Pilot Simulator 3D","Airline Commander","Turboprop Flight Simulator","Aerofly 2 Flight Simulator","Extreme Landings","Extreme Landings Pro","SimplePlanes","SimpleRockets 2","PicaSim","FlightGear","GeoFS","Airplane Pilot Simulator 3D","Real Flight Simulator","Pilot Flight Simulator 3D","Flight Simulator 2018","Modern Warplanes","Warplanes: WW2 Dogfight","Sky Gamblers: Air Supremacy","Sky Gamblers: Storm Raiders 2","Gunship III","Carrier Landings","Absolute RC Plane Sim","RC Flight Simulator","Helicopter Sim","Helicopter Simulator 2023","Drone Strike Military War 3D"],
+racing:["CarX Street","CarX Drift Racing 2","Need for Speed: No Limits","Asphalt 9: Legends","Asphalt 8: Airborne","Real Racing 3","GRID Autosport","Wreckfest","Rush Rally 3","Drive Zone Online","Static Shift Racing","Assoluto Racing","Rebel Racing","CSR Racing 2","Real Drift Car Racing","FR Legends","Extreme Car Driving Simulator","Car Simulator 2","Driving School Simulator","Traffic Rider","Traffic Tour","MadOut2 BigCityOnline","Parking Master Multiplayer 2","Parking Master 3D","Project Drift 2.0","Drift Max Pro","Nitro Nation","Absolute Drift","Rally Fury","Off The Road (OTR)"]
+};
+
+const nav = document.getElementById('catnav');
+CATS.forEach(c=> nav.innerHTML += `<a href="#cat-${c.key}">${c.icons[0]} ${c.label}</a>`);
+
+const main = document.getElementById('main');
+CATS.forEach(cat=>{
+  const list = GAMES[cat.key];
+  const sec = document.createElement('section');
+  sec.className = 'cat';
+  sec.id = 'cat-' + cat.key;
+  sec.innerHTML = `<h2>${cat.icons[0]} ${cat.label} <span class="count">(${list.length} بازی)</span></h2><div class="grid" data-cat="${cat.key}"></div>`;
+  main.appendChild(sec);
+  const grid = sec.querySelector('.grid');
+  list.forEach((name,i)=>{
+    const icon = cat.icons[i % cat.icons.length];
+    const rating = (3.7 + ((name.length*7+i*3) % 13)/10).toFixed(1);
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.name = name.toLowerCase();
+    card.dataset.gname = name;
+    card.dataset.cat = cat.label;
+    card.dataset.icon = icon;
+    card.dataset.color = cat.c;
+    card.dataset.desc = cat.desc;
+    card.dataset.rating = rating;
+    card.innerHTML = `<div class="icon" style="background:${cat.c}">${icon}</div><h3>${name}</h3><div class="cat-tag">${cat.label} · ⭐${rating}</div>`;
+    card.onclick = ()=>openModal(card);
+    grid.appendChild(card);
+  });
+});
+
+function openModal(card){
+  document.getElementById('mIcon').textContent = card.dataset.icon;
+  document.getElementById('mIcon').style.background = card.dataset.color;
+  document.getElementById('mName').textContent = card.dataset.gname;
+  document.getElementById('mCat').textContent = card.dataset.cat;
+  document.getElementById('mRating').textContent = '⭐ ' + card.dataset.rating + ' از ۵';
+  document.getElementById('mDesc').textContent = card.dataset.desc;
+  document.getElementById('mLink').href = 'https://play.google.com/store/search?q=' + encodeURIComponent(card.dataset.gname) + '&c=apps';
+  document.getElementById('modal').classList.remove('hidden');
+}
+function closeModal(){ document.getElementById('modal').classList.add('hidden'); }
+
+document.getElementById('q').addEventListener('input', e=>{
+  const v = e.target.value.trim().toLowerCase();
+  document.querySelectorAll('.card').forEach(card=>{
+    card.style.display = card.dataset.name.includes(v) ? '' : 'none';
+  });
+  document.querySelectorAll('section.cat').forEach(sec=>{
+    const visible = [...sec.querySelectorAll('.card')].some(c=>c.style.display!=='none');
+    sec.style.display = visible ? '' : 'none';
+  });
+});
+
+const defaultReviews = [
+  {name:"علی", stars:5, text:"مجموعه فوق‌العاده‌ای از بازی‌هاست، خصوصاً بخش ترسناک!"},
+  {name:"سارا", stars:4, text:"بخش شبیه‌سازها خیلی کامله، دکمه Google Play هم خیلی به‌دردبخوره."},
+];
+let reviews = [];
+try{
+  const saved = localStorage.getItem('androidgame_reviews');
+  reviews = saved ? JSON.parse(saved) : defaultReviews;
+}catch(e){ reviews = defaultReviews; }
+
+let selectedStars = 5;
+const starsel = document.getElementById('starsel');
+function paintStars(){ [...starsel.children].forEach(s=> s.classList.toggle('on', +s.dataset.v <= selectedStars)); }
+starsel.addEventListener('click', e=>{ if(e.target.dataset.v){ selectedStars = +e.target.dataset.v; paintStars(); } });
+paintStars();
+
+function renderReviews(){
+  document.getElementById('rvList').innerHTML = reviews.map(r=>`
+    <div class="rv"><b>${r.name}</b><span class="stars">${'★'.repeat(r.stars)}${'☆'.repeat(5-r.stars)}</span><p>${r.text}</p></div>
+  `).join('');
+}
+renderReviews();
+
+function submitReview(){
+  const name = document.getElementById('rvName').value.trim();
+  const text = document.getElementById('rvText').value.trim();
+  if(!name || !text) return;
+  reviews.unshift({name, stars:selectedStars, text});
+  try{ localStorage.setItem('androidgame_reviews', JSON.stringify(reviews)); }catch(e){}
+  document.getElementById('rvName').value='';
+  document.getElementById('rvText').value='';
+  selectedStars = 5; paintStars();
+  renderReviews();
+}
+</script>
+
+</body>
+</html>
